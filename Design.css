@@ -310,3 +310,82 @@ table {background-color: #f1efe8;
     height: 150px;
   }
 }
+
+@media (max-width: 768px) {
+
+  .container {
+    padding: 15px;
+  }
+
+  /* Intro section */
+  .intro {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .photo img {
+    width: 180px;
+    height: 180px;
+  }
+
+  /* About section */
+  .about-div {
+    flex-direction: column;
+    text-align: justify;
+  }
+
+  .about-content img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Skills */
+  .skills-grid {
+    justify-content: center;
+  }
+
+  /* Projects */
+  .project-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project {
+    width: 90%;
+  }
+
+  .project img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Contact */
+  .contact {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+
+  .text h1 {
+    font-size: 1.8em;
+  }
+
+  .text p {
+    font-size: 1em;
+    line-height: 30px;
+  }
+
+  button {
+    width: 200px;
+    height: 50px;
+  }
+
+  .photo img {
+    width: 150px;
+    height: 150px;
+  }
+}
